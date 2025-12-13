@@ -7,7 +7,7 @@ services:
       dockerfile: Dockerfile
     container_name: idc-global-events-intelligence
     ports:
-      - "3000:80"
+      - "3010:80"
     environment:
       - GEMINI_API_KEY=${GEMINI_API_KEY}
     restart: unless-stopped
